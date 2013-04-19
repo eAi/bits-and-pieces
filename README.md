@@ -1,0 +1,3 @@
+This repo contains:
+
+- Patched versions of libimobiledevice compiled for Mac that makes idevicescreenshot work with iOS 6. This was done by taking the builds from https://github.com/benvium/libimobiledevice-macosx and patching them manually to change the screenshotr version from 100 to 300 (based on this patch: http://cgit.sukimashita.com/libimobiledevice.git/commit/?id=6fdf7932c946d48157929b37b2956cae19d80ac4). To use these, take the builds from benvium (above) and then replace the relevant files from here.
